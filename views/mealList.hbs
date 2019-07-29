@@ -1,0 +1,19 @@
+<div class="results">
+{{#each finalResult}}
+<div class="card results-item" style="width: 18rem;">
+    <img src="{{this.strMealThumb}}" class="card-img-top" alt="{{this.idMeal}}">
+    <div class="card-body">
+        <h5 class="card-title">Let's try to cook</h5>
+        <a href="/meal/{{this.idMeal}}" class="btn btn-primary btn-results">{{this.strMeal}}</a>
+    </div>
+</div>
+{{/each}}
+</div>
+{{#unless finalResult}}
+<div class="unless">
+<h3 class="warning">Oops! We can't find a meal with this ingredients! try something else!</h3>
+<form action="/ingredients" method="get">
+<button type="submit" class="btn btn-warning" href="/ingredients">Go to ingredients</button>
+</form>
+</div>
+{{/unless}}

@@ -1,0 +1,178 @@
+{{#each finalResult}}
+<div class="container">
+    <h1 class="my-4">Page Heading
+        <small>Secondary Text</small>
+    </h1>
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-fluid" src="{{this.strMealThumb}}" alt="">
+        </div>
+        <div class="col-md-4">
+            <h3 class="my-3">{{this.strMeal}}</h3>
+            <ul>
+                <li><b>Category:</b>{{this.strCategory}}</li>
+                <li><b>Area: </b>{{this.strArea}}</li>
+                {{#if strTags}}
+                <li><b>Tags: </b>{{strTags}}</li>
+                {{/if}}
+            </ul>
+            <h3 class="my-3">Ingredients:</h3>
+            <table class="table">
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Ingredient</th>
+                            <th scope="col">Measure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#if this.strIngredient1}}
+                        <tr>
+                            <td>{{this.strIngredient1}}</td>
+                            <td>{{this.strMeasure1}}</td>
+                        </tr>
+                        {{/if}}
+                        {{#if this.strIngredient2}}
+                        <tr>
+                            <td>{{this.strIngredient2}}</td>
+                            <td>{{this.strMeasure2}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient3}}
+                        <tr>
+                            <td>{{this.strIngredient3}}</td>
+                            <td>{{this.strMeasure3}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient4}}
+                        <tr>
+                            <td>{{this.strIngredient4}}</td>
+                            <td>{{this.strMeasure4}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient5}}
+                        <tr>
+                            <td>{{this.strIngredient5}}</td>
+                            <td>{{this.strMeasure5}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient6}}
+                        <tr>
+                            <td>{{this.strIngredient6}}</td>
+                            <td>{{this.strMeasure6}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient7}}
+                        <tr>
+                            <td>{{this.strIngredient7}}</td>
+                            <td>{{this.strMeasure7}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient8}}
+                        <tr>
+                            <td>{{this.strIngredient8}}</td>
+                            <td>{{this.strMeasure8}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient9}}
+                        <tr>
+                            <td>{{this.strIngredient9}}</td>
+                            <td>{{this.strMeasure9}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient10}}
+                        <tr>
+                            <td>{{this.strIngredient10}}</td>
+                            <td>{{this.strMeasure10}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient11}}
+                        <tr>
+                            <td>{{this.strIngredient11}}</td>
+                            <td>{{this.strMeasure11}}</td>
+                        </tr>
+                        {{/if}}
+                        {{#if this.strIngredient12}}
+                        <tr>
+                            <td>{{this.strIngredient12}}</td>
+                            <td>{{this.strMeasure12}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient13}}
+                        <tr>
+                            <td>{{this.strIngredient13}}</td>
+                            <td>{{this.strMeasure13}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient14}}
+                        <tr>
+                            <td>{{this.strIngredient14}}</td>
+                            <td>{{this.strMeasure14}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient15}}
+                        <tr>
+                            <td>{{this.strIngredient15}}</td>
+                            <td>{{this.strMeasure15}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient16}}
+                        <tr>
+                            <td>{{this.strIngredient16}}</td>
+                            <td>{{this.strMeasure16}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient17}}
+                        <tr>
+                            <td>{{this.strIngredient17}}</td>
+                            <td>{{this.strMeasure17}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient18}}
+                        <tr>
+                            <td>{{this.strIngredient18}}</td>
+                            <td>{{this.strMeasure18}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient19}}
+                        <tr>
+                            <td>{{this.strIngredient19}}</td>
+                            <td>{{this.strMeasure19}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            {{#if this.strIngredient20}}
+                        <tr>
+                            <td>{{this.strIngredient20}}</td>
+                            <td>{{this.strMeasure20}}</td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    <h3 class="my-4">How to cook!</h3>
+    <p>{{this.strInstructions}}</p>
+    <div class="footer-meal">
+        <h3>Here we have some video for you!</h3>
+        <iframe width="560" height="315" src="{{../dataYoutube}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+</div>
+{{/each}}

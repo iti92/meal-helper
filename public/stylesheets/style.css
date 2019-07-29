@@ -1,0 +1,132 @@
+body {
+  padding: 50px;
+  font: 14px "Pacifico","Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/img/black-bean-close-up-cooked-1640774.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Pacifico;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.flex-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.footer-copyright {
+  margin-top: 50px;
+}
+
+.ingredients {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/img/bunch-food-fresh-349609.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Pacifico;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ingredients h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+#input-ingredients {
+ border-radius: 10px;
+ width: 50%;
+ height: 50px;
+ font-size: 1.2em;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+}
+
+.btn-submit {
+  margin-top: 30px;
+  width: 10%;
+  font-size: 2em;
+}
+
+.results {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.results-item{
+  margin: 20px;
+}
+
+.footer-meal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+
+.categories {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+
+.countries {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.country {
+  flex-flow: column;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.countries > p {
+  margin-top: 20px;
+}
+
+.map {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unless {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
